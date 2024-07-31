@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+:root{
+    --primary-color: #021526;
+    --secondary-color: #03346E;
+
+    --primary-font: "Playwrite BE VLG", cursive;
+}
+
 h1{
-    color: red;
-    font-size: 1rem;
+    color: var(--primary-color)
+    
 }
