@@ -4,11 +4,25 @@
     --primary-color: #021526;
     --secondary-color: #03346E;
     --terca-colot: #6EACDA;
+    --white: #fff;
 
     --primary-font: "Playwrite BE VLG", cursive;
 }
 
-h1{
-    color: var(--primary-color)
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar-title{
+    color: var(--white);
 }
