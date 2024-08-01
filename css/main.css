@@ -26,3 +26,33 @@
 .navbar-title{
     color: var(--white);
 }
+
+.header{
+    background: var(--primary-color);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64f38c, var(--secondary-color));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, var(--secondary-color)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    
+    color: var(--white);
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.header-subtitle{
+    
+    color: var(--white);
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
